@@ -17,7 +17,7 @@ const fnA1 = () => {
 };
 
 const fnB2 = () => {
-  if (letra.innerHTML === "AB") {
+  if (letra.innerHTML === "AB" && numero.innerHTML === "1") {
     numero.innerHTML += "2";
   } else {
     if (letra.innerHTML === "A") {
